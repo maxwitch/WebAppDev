@@ -1,0 +1,124 @@
+main {
+    width: 100%;
+    max-width: 425px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.main-button {
+    width: 50%;
+    max-width: 400px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: bisque;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 32px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.settings-group {
+    border: 1px darkcyan dashed;
+    max-width: 50%;
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.back-to-main-button {
+    border: 1px solid black;
+    padding: 15px 30px;
+    background-color: bisque;
+    font-size: 12px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.heroes-container {
+    padding: 10px 20px;
+    border: 1px solid dimgray;
+    background-color: bisque;
+    margin-bottom: 16px;
+}
+
+.heroes-container p {
+    margin: 0px 0;
+}
+
+.heroeslistcontainer {
+    width: 90%;
+    height: 270px;
+    margin-bottom: 16px;
+    overflow: scroll;
+}
+
+.add-del button {
+    width: 60%;
+    height: 50px;
+    font-size: 18px;
+}
+
+.add-del {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.modalWindowOncreatehero {
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    width: 350px;
+    height: 300px;
+    background-color: cadetblue;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 24px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modalWindowOncreatehero input {
+    width: 70%;
+    font-size: 16px;
+}
+
+.modalWindowOncreatehero button {
+    width: 70%;
+    height: 70px;
+    margin-top: 50px;
+    border: 1px solid black;
+    font-size: 24px;
+}
+
+.hiddenClass {
+    visibility: hidden;
+}

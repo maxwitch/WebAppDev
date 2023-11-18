@@ -1,0 +1,112 @@
+main {
+    width: 100%;
+    max-width: 425px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    text-align: center;
+    
+}
+
+body {
+    max-width: 425px;
+    width: 100%;
+    margin: 0;
+}
+
+.main-button {
+    width: 50%;
+    max-width: 400px;
+    border: 1px solid black;
+    padding: 40px;
+    background-color: bisque;
+    font-size: 32px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 32px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.settings-group {
+    border: 1px darkcyan dashed;
+    max-width: 50%;
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.back-to-main-button {
+    border: 1px solid black;
+    padding: 15px 30px;
+    background-color: bisque;
+    font-size: 12px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.heroes-container {
+    padding: 10px 20px;
+    border: 1px solid dimgray;
+    background-color: bisque;
+    margin-bottom: 16px;
+}
+
+.heroes-list {
+    width: 90%;
+    height: 800px;
+    margin-bottom: 16px;
+    overflow: scroll;
+}
+
+.add-del {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.typical-button {
+    width: 50%;
+    padding: 10px 50px;
+    background-color: bisque;
+    border: 1px solid black;
+}
+
+.hero-name {
+    background-color: chocolate;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.stats-group p{
+    margin: 8px;
+}
+.stats-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats-group input{
+    height: 30px;
+}
+
+.buttons-nav-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
