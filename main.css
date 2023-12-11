@@ -33,3 +33,74 @@ body {
     top: 0;
     left: 0;
 }
+.h2-style {
+    border-bottom: 1px rgb(125, 36, 215) solid;
+    max-width: 70%;
+    width: 70%;
+    margin-top: 70px;
+}
+.players-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.p-players {
+    width: 240px;
+    height:35px;
+    border-bottom: solid 1.7px black;
+    border-right: solid 2px black;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+.players-a {
+    width: 240px;
+    height:35px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+
+.create-players{
+    margin-top: 30px;
+    width: 240px;
+    height:35px;
+    border-bottom: solid rgb(114, 166, 244) 1.7px;
+    border-right: solid rgb(114, 166, 244) 2px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+
+}
+.start-end-fight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    gap: 20px;
+    
+}
+.start-fight {
+    font-size: 20px;
+    border-bottom: solid green 1.7px;
+    border-right: solid green 2px;
+    width: 180px;
+    height: 40px;
+}
+.start {
+    text-decoration: none;
+    color: black;
+}
+.end-fight {
+    font-size: 20px;
+    border-bottom: solid red 1.7px;
+    border-right: solid red 2px;
+    width: 180px;
+    height: 40px;
+}
+.end {
+    text-decoration: none;
+    color: black;
+}
