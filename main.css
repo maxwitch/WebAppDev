@@ -24,3 +24,89 @@ body {
     background-color: bisque;
     font-size: 32px;
 }
+.back-to-main-button {
+    border: 1px solid black;
+    padding: 15px 30px;
+    background-color: bisque;
+    font-size: 12px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* стили для страницы fight.html */
+
+.h2-style { /* для заголовка */
+    border-bottom: 1px rgb(125, 36, 215) solid;
+    max-width: 70%;
+    width: 70%;
+    margin-top: 70px;
+}
+.players-container {/*  для каждого персонажа */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.p-players { /* для параграфа */
+    width: 240px;
+    height:35px;
+    border-bottom: solid 1.7px black;
+    border-right: solid 2px black;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+.players-a { /* для кнопки с именем каждого персонажа */
+    width: 240px;
+    height:35px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+
+.create-players{ /* для кнопки создать персонажа */
+    margin-top: 30px;
+    width: 240px;
+    height:35px;
+    border-bottom: solid rgb(114, 166, 244) 1.7px;
+    border-right: solid rgb(114, 166, 244) 2px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+
+}
+.start-end-fight { /* для кнопок начать или закончиить бой */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    gap: 20px;
+    
+}
+.start-fight { /* для кнопки начать бой */
+    font-size: 20px;
+    border-bottom: solid green 1.7px;
+    border-right: solid green 2px;
+    width: 180px;
+    height: 40px;
+}
+.start { /* для текса начала боя */
+    text-decoration: none;
+    color: black;
+}
+.end-fight { /* для кнопки конца боя */
+    font-size: 20px;
+    border-bottom: solid red 1.7px;
+    border-right: solid red 2px;
+    width: 180px;
+    height: 40px;
+}
+.end { /* для текста конца боя */
+    text-decoration: none;
+    color: black;
+}
+/* стили для страницы fight.html
+------------------------------------------------------------------------------------------------------------------- */
+
