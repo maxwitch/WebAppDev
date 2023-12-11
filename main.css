@@ -33,18 +33,21 @@ body {
     top: 0;
     left: 0;
 }
-.h2-style {
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* стили для страницы fight.html */
+
+.h2-style { /* для заголовка */
     border-bottom: 1px rgb(125, 36, 215) solid;
     max-width: 70%;
     width: 70%;
     margin-top: 70px;
 }
-.players-container {
+.players-container {/*  для каждого персонажа */
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.p-players {
+.p-players { /* для параграфа */
     width: 240px;
     height:35px;
     border-bottom: solid 1.7px black;
@@ -54,7 +57,7 @@ body {
     font-size: 20px;
 
 }
-.players-a {
+.players-a { /* для кнопки с именем каждого персонажа */
     width: 240px;
     height:35px;
     text-decoration: none;
@@ -63,7 +66,7 @@ body {
 }
 
 
-.create-players{
+.create-players{ /* для кнопки создать персонажа */
     margin-top: 30px;
     width: 240px;
     height:35px;
@@ -74,7 +77,7 @@ body {
     color: black;
 
 }
-.start-end-fight {
+.start-end-fight { /* для кнопок начать или закончиить бой */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,25 +85,28 @@ body {
     gap: 20px;
     
 }
-.start-fight {
+.start-fight { /* для кнопки начать бой */
     font-size: 20px;
     border-bottom: solid green 1.7px;
     border-right: solid green 2px;
     width: 180px;
     height: 40px;
 }
-.start {
+.start { /* для текса начала боя */
     text-decoration: none;
     color: black;
 }
-.end-fight {
+.end-fight { /* для кнопки конца боя */
     font-size: 20px;
     border-bottom: solid red 1.7px;
     border-right: solid red 2px;
     width: 180px;
     height: 40px;
 }
-.end {
+.end { /* для текста конца боя */
     text-decoration: none;
     color: black;
 }
+/* стили для страницы fight.html
+------------------------------------------------------------------------------------------------------------------- */
+
