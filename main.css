@@ -24,3 +24,12 @@ body {
     background-color: bisque;
     font-size: 32px;
 }
+.back-to-main-button {
+    border: 1px solid black;
+    padding: 15px 30px;
+    background-color: bisque;
+    font-size: 12px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
